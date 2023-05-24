@@ -136,9 +136,9 @@ int main()
     initAWS();
 
     // AWS S3 credentials and bucket details
-    std::string accessKeyId = "YOUR_ACCESS_KEY_ID";
-    std::string secretAccessKey = "YOUR_SECRET_ACCESS_KEY";
-    std::string bucketName = "YOUR_BUCKET_NAME";
+    std::string accessKeyId = "ACCESS_KEY_ID";
+    std::string secretAccessKey = "SECRET_ACCESS_KEY";
+    std::string bucketName = "BUCKET_NAME";
     std::string keyName = "uploaded_file.txt";
 
     // Start the server on port 8080
